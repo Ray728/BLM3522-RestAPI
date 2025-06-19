@@ -1,0 +1,10 @@
+Proje, basit bir tahmin oyunu sunan full-stack bir uygulamadır.
+
+backend/server.js: Express.js tabanlı sunucu. Kullanıcı tahminlerini alır,
+doğruysa PostgreSQL’deki lider tablosunu günceller veya yeni kayıt ekler. "/guess" ve "/leaderboard"
+endpoint’leri bulunur.
+
+frontend/src/App.jsx: Uygulamanın başlangıç bileşeni. Login.jsx sayfasını yükler.
+
+frontend/src/pages/Login.jsx: Tahmin arayüzü. Kullanıcı adı ve sayı girişi alır, API’ye istek gönderir,
+mesajı ve güncel lider tablosunu gösterir.
